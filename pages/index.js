@@ -7,11 +7,6 @@ export default function Home() {
 
   return (
     <div className={`bg-white dark:bg-gray-900 min-h-screen ${themeClass}`}>
-      {/* <div
-      className={`bg-white ${
-        darkMode ? "dark" : "light"
-      } dark:bg-gray-900 min-h-screen`}
-    > */}
       <div className="container mx-auto p-4">
         <h1 className="text-3xl font-bold mb-4 dark:text-white">
           Theme Context Example
